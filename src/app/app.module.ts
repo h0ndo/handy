@@ -8,6 +8,7 @@ import { SettingsModule } from './settings/settings.module';
 import { ServiceModule } from './service/service.module';
 import { UsermanualModule } from './usermanual/usermanual.module';
 import { HandyModule } from './handy/handy.module';
+import { WhatsappModule } from './whatsapp/whatsapp.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HandyModule } from './handy/handy.module';
     SettingsModule,
     ServiceModule,
     UsermanualModule,
-    HandyModule
+    HandyModule,
+    WhatsappModule
   ],
   providers: [],
   bootstrap: [AppComponent]
